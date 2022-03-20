@@ -1,55 +1,321 @@
-<!DOCTYPE html>
-<htlm lang="en">
-<head>
-  <title>CSS Grid</title>
-  <style>
-    .wrapper{
-      display: grid;
-      grid-template-column:1fr 2fr 1fr;
-      grid-auto-rows:minmax(100px, auto);
-      grid-gap: 1em;
-      justify-items:stretch;
-      align-items: stretcj;
-    }
+body{
+	font:normal 13px/18px  Arial, Helvetica, sans-serif;
+	color:#3e3d3d;
+	padding:0 0 0 0;
+	margin:0;
+	background-color: #000;
+	}	
+.wrapper{
+	background-image:url(\homepage\images\bodybg);
+	display:block;
+	margin:auto;
+	height: 943px;
+	width: 907px;
+	z-index: -11;
+}
+.wrapper2{
+	display:block;
+	margin:auto;
+	height: 943px;
+	width: 907px;
+		background-color: #fff;
+}
+.wrapper3{
+	display:block;
+	margin:auto;
+	height: 943px;
+	width: 896px;
+}
+.books_btn{
+	position:absolute;
+	top:250px;
+	margin-left:82px;
+	width: 160px;
+	height: 183px;
+}
 
-    .wrapper > div {
-    background:#eee;
-    padding:1em;
-    }
-    .wrapper > div: nth-child(odd){
-      background:#ddd;
-    }
-    
-    .box1{
-      grid-column:1/3;
-      grid-row:1/3;
+.OAF_btn{
+	position:relative;
+	top:122px;
+	left:25px;
+	width: 167px;
+	height: 202px;
+	background-image:url(../images/OAF_up2.jpg)
+}
+.OAF_btn a{
+display:block;
+width: 167px;
+height: 202px;
+}
 
-    }
-    
-    .box2{
-      grid-column:3;
-      grid-row:1/3;
-    }
+.OAF_over{
+	position:absolute;
+	top:612px;
+	width: 310px;
+	height: 331px;
+	background-image:url(../images/OAF_up1.jpg)
+}
 
-    .box3{
-      grid-column:2/4;
-      grid-row: 3;
-    }
-   
-    .box4{
-      grid-column:3/4;
-      grid-row: 2/4;
-    }
-   
-    </style>
- </head>
- <body>
-    <div class="wrapper">
-       div clas="box box 1">Box 1</div>
-       div clas="box box 2">Box 2</div>
-       div clas="box box 3">Box 3</div>
-       div clas="box box 4">Box 4</div>
-    </div>
-</body>
-</html>
+.home_btn{
+margin-left: 24px;	
+width:137px;
+height:103px;
+position:absolute;
+}
 
+.chickenbig_over{
+	width: 272px;
+	height: 198px;
+	top: 98px;
+	margin-left: 211px;
+	position: absolute;
+}
+
+.chickenbig_btn{
+	position: relative;
+	top: 4px;
+	margin-left:43px;
+	width: 145px;
+	height: 177px;
+}
+.chickenbig_btn a{
+display:block;
+width: 145px;
+height: 177px;
+}
+
+.frank_over{
+	width: 282px;
+	height: 222px;
+	margin-left: 414px;
+	position: absolute;
+}
+
+.frank_btn{
+	position: relative;
+	top: 8px;
+	margin-left:68px;
+	width: 178px;
+	height: 207px;
+}
+.frank_btn a{
+display:block;
+width: 178px;
+height: 207px;
+}
+
+.loretta_over{
+	width: 233px;
+	height: 169px;
+	top: 66px;
+	margin-left: 667px;
+	position: absolute;
+}
+
+.loretta_btn{
+	position: relative;
+	top: 30px;
+	margin-left:68px;
+	width: 108px;
+	height: 140px;
+}
+.loretta_btn a{
+width: 108px;
+height: 140px;
+display:block;
+}
+
+.monsterator_over{
+	width: 379px;
+	height: 298px;
+	margin-top: 197px;
+	margin-left: 341px;
+	position: absolute;
+}
+
+.monsterator_btn{
+	position: relative;
+	margin-top: 16px;
+	margin-left:84px;
+	width: 228px;
+	height: 270px;
+}
+.monsterator_btn a{
+width: 228px;
+height: 270px;
+display:block;
+}
+
+.blub_over{
+	width: 242px;
+	height: 214px;
+	margin-top: 366px;
+	margin-left: 198px;
+	position: absolute;
+}
+
+.blub_btn{
+	position: relative;
+	margin-top: 26px;
+	margin-left:74px;
+	width: 150px;
+	height: 180px;
+}
+.blub_btn a{
+width: 150px;
+height: 180px;
+display:block;
+}
+
+.nasty_over{
+	width: 261px;
+	height: 189px;
+	margin-top: 345px;
+	margin-left: 646px;
+	position: absolute;
+}
+
+.nasty_btn{
+	position: relative;
+	margin-top: 40px;
+	margin-left:44px;
+	width: 176px;
+	height: 140px;
+}
+.nasty_btn a{
+	display:block;
+	width: 176px;
+	height: 140px;
+	
+}
+
+.pb_over{
+	width: 227px;
+	height: 196px;
+	margin-top: 553px;
+	margin-left: 240px;
+	position: absolute;
+	
+}
+
+.pb_btn{
+	position: relative;
+	margin-top: 36px;
+	margin-left:32px;
+	width: 126px;
+	height: 150px;
+	z-index:10;
+}
+.pb_btn a{
+	display:block;
+	width: 126px;
+	height: 150px;
+	
+}
+
+.bs_over{
+	width: 256px;
+	height: 240px;
+	margin-top: 476px;
+	margin-left: 464px;
+	position: absolute;
+}
+
+.bs_btn{
+	position: relative;
+	margin-top: 55px;
+	margin-left:90px;
+	width: 140px;
+	height: 170px;
+}
+.bs_btn a{
+	display:block;
+	width: 140px;
+	height: 170px;
+	
+}
+
+.frogs_over{
+	width: 287px;
+	height: 270px;
+	margin-top: 667px;
+	margin-left: 295px;
+	position: absolute;
+	z-index:0;
+}
+
+.frogs_btn{
+	position: relative;
+	margin-top: 105px;
+	margin-left:120px;
+	width: 120px;
+	height: 160px;
+}
+.frogs_btn a{
+	display:block;
+	width: 120px;
+	height: 160px;
+	
+}
+
+.moo_over{
+	width: 308px;
+	height: 208px;
+	margin-top: 710px;
+	margin-left: 588px;
+	position: absolute;
+}
+
+.moo_btn{
+	position: relative;
+	margin-top: 20px;
+	margin-left:62px;
+	width: 130px;
+	height: 130px;
+}
+.moo_btn a{
+	display: block;
+	width: 120px;
+	height: 130px;
+	
+}
+
+div, p, h1, h2, h3, h4, h5, h6, form, label, input, select{
+	padding:0;
+	margin:0;
+	border:0;
+	outline:0;
+	}
+	
+img{
+	padding:0;
+	margin:0;
+	border:none;
+	}	
+
+.spacer{
+	clear:both;
+	font-size:0;
+	line-height:0;
+	height:0;
+	}
+	
+.left{
+	float:left;
+	width:auto;
+	}
+	
+.right{
+	float:right;
+	width:auto;	
+	}	
+	
+/*::-moz-selection {
+	background: #1f67a7; 
+	color: #fff;
+	}*/
+	
+/*::selection {
+	background: #1f67a7; 
+	color: #fff;
+	}*/	
