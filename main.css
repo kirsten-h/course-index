@@ -9,8 +9,8 @@ body{
 	background-image:url(https://raw.githubusercontent.com/kirsten-h/course-index/f73e367094eba1a1bcb369edf5d27e89455eac89/bodybg.jpg);
 	display:block;
 	margin:auto;
-	height: 943px;
-	width: 907px;
+	height: 1366px;
+	width: 768px;
 	z-index: -11;
 }
 .wrapper2{
@@ -40,7 +40,7 @@ body{
 	left:25px;
 	width: 167px;
 	height: 202px;
-	background-image:url(../images/OAF_up2.jpg)
+	background-image:url(https://raw.githubusercontent.com/kirsten-h/course-index/f73e367094eba1a1bcb369edf5d27e89455eac89/bodybg.jpg)
 }
 .OAF_btn a{
 display:block;
