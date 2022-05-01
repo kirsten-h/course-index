@@ -1,0 +1,62 @@
+<style>{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+   
+
+
+
+/* button */
+.seesaw{
+   position: absolute;
+	 right:550px;
+	 top:55%;
+ 	 width:750px;
+	 height:164px;
+  	}
+  
+.slide{
+    position:absolute;
+    left:210px;
+    top:30%;
+    width:345px;
+    height:309px;
+    }
+
+.sandpit{
+   position:absolute;
+   right:800px;
+   top:35%;
+   width:311px;
+   height:207px;
+    }
+
+.swing{
+    position:absolute;
+    left:550px;
+    top:18%;
+    width:326px;
+    height:202px;
+    }
+        
+.RockingHorse{
+  position:absolute;
+  left:600px;
+  bottom:42%;
+  width:156px;
+  height:142px;
+  }
+
+
+
+
+
+
+      
