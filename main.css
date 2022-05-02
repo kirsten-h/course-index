@@ -17,14 +17,14 @@ body {
 .seesaw{
    position: absolute;
          left:460px;
-	 top:65%;
+	 top:85%;
  	 width:750px;
 	 height:164px;
   	}
   
 .slide{
     position:absolute;
-    left:180px;
+    left:100px;
     top:30%;
     width:345px;
     height:309px;
@@ -33,7 +33,7 @@ body {
 .sandpit{
    position:absolute;
    left:850px;
-   top:45%;
+   top:55%;
    width:311px;
    height:207px;
     }
@@ -41,7 +41,7 @@ body {
 .swing{
     position:absolute;
     left:550px;
-    top:115%;
+    top:15%;
     width:326px;
     height:202px;
     }
