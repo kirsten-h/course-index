@@ -17,23 +17,23 @@ body {
 .seesaw{
    position: absolute;
          left:460px;
-	 top:45%;
+	 top:65%;
  	 width:750px;
 	 height:164px;
   	}
   
 .slide{
     position:absolute;
-    left:100px;
-    top:35%;
+    left:80px;
+    top:40%;
     width:345px;
     height:309px;
     }
 
 .sandpit{
    position:absolute;
-   left:850px;
-   top:40%;
+   left:820px;
+   top:45%;
    width:311px;
    height:207px;
     }
